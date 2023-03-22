@@ -2,7 +2,7 @@ import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
 import styled from "styled-components";
-import WebDev from "./Webdev";
+import WebDev from "./Three/Webdev";
 
 const Desc = styled.div`
   width: 200px;
@@ -11,7 +11,7 @@ const Desc = styled.div`
   background-color: white;
   border-radius: 10px;
   position: absolute;
-  top: 100px;
+  top: 50px;
   right: 100px;
 
   @media only screen and (max-width: 768px) {

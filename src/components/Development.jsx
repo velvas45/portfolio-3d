@@ -1,7 +1,7 @@
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
-import Mac from "./Mac";
+import Mac from "./Three/Mac";
 import styled from "styled-components";
 
 const Desc = styled.div`
@@ -11,8 +11,8 @@ const Desc = styled.div`
   background-color: white;
   border-radius: 10px;
   position: absolute;
-  top: 130px;
-  right: 100px;
+  top: 50px;
+  left: 50%;
 
   @media only screen and (max-width: 768px) {
     top: 0;

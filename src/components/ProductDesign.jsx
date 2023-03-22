@@ -1,7 +1,7 @@
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
-import Shoes from "./Shoes";
+import Shoes from "./Three/Shoes";
 import styled from "styled-components";
 
 const Desc = styled.div`
