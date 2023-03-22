@@ -2,7 +2,7 @@ import { MeshDistortMaterial, Sphere, OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
 import styled from "styled-components";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 
 const Section = styled.div`
   height: 100vh;

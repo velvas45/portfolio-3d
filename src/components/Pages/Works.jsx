@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import ProductDesign from "./ProductDesign";
-import WebDesign from "./WebDesign";
-import Development from "./Development";
+import ProductDesign from "../ProductDesign";
+import WebDesign from "../WebDesign";
+import Development from "../Development";
 
 const dataList = [
   "Web Design",
